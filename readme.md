@@ -1,30 +1,31 @@
 <h1 align="center">
-  CSAMNet
+  FreqPath-Net
 </h1>
 
 <p align="center">
-  <img src="img/Fig_Net__CSAMNet.jpg" alt="CSAMNet" width="100%">
+  <img src="img/graph_abstract-FreqPath-Net.jpg" alt="FreqPath-Net" width="100%">
   <br>
-  <rm>Figure 1: CSAMNet Architecture</rm>
+  <rm>Figure 1: FreqPath-Net Architecture</rm>
 </p>
 
-**📖Title：** CSAMNet: Cross-Scale Attention Modulation for Histopathological Nuclei Segmentation
+**📖Title：** FreqPath-Net: Frequency-Aware Spectral–Orthogonal Network for Histopathological Nuclei Segmentation
 
-**👨‍💻Author：** Jin Huang · Shengqian Wang · Mengping Long · Taobo Hu · Zhaoyi Ye · Yueyun Weng · Du Wang · Sheng Liu (*Fellow, IEEE*) · **Liye Mei** · **Cheng Lei**
+<!-- **👨‍💻Author：** Jin Huang · Shengqian Wang · Wenchao Xue · Shuo Zhang · Mengping Long · Taobo Hu · Zhaoyi Ye · Sheng Liu (*Fellow, IEEE*) · Du Wang · **Liye Mei** · **Cheng Lei** -->
 
-**📬 Corresponding Authors**
+<!-- **📬 Corresponding Authors**
 
 - **Liye Mei** · [liyemei@whu.edu.cn](mailto:liyemei@whu.edu.cn)  
-- **Cheng Lei** · [leicheng@whu.edu.cn](mailto:leicheng@whu.edu.cn)  
+- **Cheng Lei** · [leicheng@whu.edu.cn](mailto:leicheng@whu.edu.cn)   -->
+
+**📚 Status:** Under review at *IEEE Transactions on Medical Imaging (TMI), 2025* 
+
+**Link：** [![GitHub](https://img.shields.io/badge/GitHub-FreqPath-Net-black?logo=github)](https://github.com/huangjin520/FreqPath-Net) [![Paper](https://img.shields.io/badge/Paper-coming%20soon-lightgrey?logo=readthedocs)]() [![Website](https://img.shields.io/badge/Project-Website-blue?logo=google-chrome)](https://www.lei-whu.com)
 
 
-**Link：** [![GitHub](https://img.shields.io/badge/GitHub-CSAMNet-black?logo=github)](https://github.com/huangjin520/CSAMNet) [![Paper](https://img.shields.io/badge/Paper-coming%20soon-lightgrey?logo=readthedocs)]() [![Website](https://img.shields.io/badge/Project-Website-blue?logo=google-chrome)](https://www.lei-whu.com)
-
-
-**📜Abstract:** <p align="justify"> Accurate nuclei segmentation in histopathological images is a fundamental task in computational pathology, enabling downstream applications such as tumor grading, cellular phenotyping, and morphological analysis. However, it remains challenging due to the complex tissue architecture, diverse nuclear morphology, and blurred boundaries. To address these issues, we propose CSAMNet, a framework with four key innovations. First, we introduce the Cross-Scale Attention Modulation (CSAM) mechanism, which bridges the gap between hierarchical semantics and local details via dual-branch attention pathways. Second, we design the Detail-Context Fusion (DCF) block, which captures high-frequency contextual features. Third, we conduct comprehensive evaluations across four imaging modalities and nine datasets, demonstrating robust performance and effective semantic modulation across scales. Fourth, our framework supports full-resolution inference on whole slide images (WSIs), enabling deployment in large-scale clinical scenarios. In summary, our model achieves state-of-the-art accuracy while reducing model complexity and inference time, making it well-suited for both research and clinical applications. The code is available at [CSAMNet](https://github.com/huangjin520/CSAMNet).
+**📜Abstract:** <p align="justify"> Nuclei segmentation is a fundamental but challenging task in computational pathology due to diverse morphologies, blurred boundaries, and staining variations. Despite remarkable progress, existing models often suffer from structural instability under morphological and staining variations. We attribute this instability to disrupted frequency–spatial consistency and address it through FreqPath-Net, which enforces frequency–spatial consistency for robust nuclei segmentation. By operating directly in the frequency domain, FreqPath-Net achieves morphology-invariant and stain-robust feature representations. The Spectral Wavelet Attention Module (SWAM) adaptively enhances high-frequency boundary cues while maintaining low-frequency consistency, addressing boundary blurring and detail loss. Furthermore, the Orthogonal Direction-Constrained Frequency Module (ODFM) captures global spectral patterns and enforces directional consistency, effectively preserving boundary orientation and structural integrity by leveraging frequency–spatial consistency. Extensive experiments on twelve nuclei segmentation benchmarks show that FreqPath-Net consistently outperforms state-of-the-art methods. On the PanNuke dataset, FreqPath-Net attains an mIoU of 85.41\%, exceeding the previous best by 1.34\% across diverse organs. The code is available at [FreqPath-Net](https://github.com/huangjin520/FreqPath-Net).
 
 # Introduction
-This is an official implementation of [CSAMNet: Cross-Scale Attention Modulation for Histopathological Nuclei Segmentation](). ...
+This is an official implementation of [FreqPath-Net: Frequency-Aware Spectral–Orthogonal Network for Histopathological Nuclei Segmentation](). ...
 
 
 
@@ -44,14 +45,22 @@ We have evaluated segmentation performance on Four nuclei segmentation datasets:
 - [🔬Kumar](https://ieeexplore.ieee.org/abstract/document/7872382)  
 - [🔬MoNuSeg](https://ieeexplore.ieee.org/abstract/document/8880654)  
 - [🔬PUMA](https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giaf011/8024182) 
-
+- [🔬BBBC020](https://pmc.ncbi.nlm.nih.gov/articles/PMC3627348/) 
+- [🔬DSB](https://www.nature.com/articles/s41592-019-0612-7) 
+- [🔬CoNSep](https://www.sciencedirect.com/science/article/pii/S1361841519301045) 
+- [🔬CPM15](https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2019.00053/full) 
+- [🔬CryoNuSeg](https://www.sciencedirect.com/science/article/pii/S0010482521001438) 
+- [🔬PanNuke](https://link.springer.com/chapter/10.1007/978-3-030-23937-4_2) 
+- [🔬TNBC](https://ieeexplore.ieee.org/abstract/document/8438559) 
+- [🔬NuInsSeg](https://www.nature.com/articles/s41597-024-03117-2) 
 Four other modality datasets:
-- [🎀Dataset B](https://ieeexplore.ieee.org/abstract/document/8003418)
+- [🎀BUSI-WHU](https://ieeexplore.ieee.org/abstract/document/10906450)
 - [🧠Brain Tumor MRI](https://figshare.com/articles/dataset/brain_tumor_dataset/1512427)  
 - [📂LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI)  
+- [👶🏻PSFH](https://www.nature.com/articles/s41597-024-03266-4)  
+- [🩺GlaS](https://www.sciencedirect.com/science/article/pii/S1361841516301542)  
 - [🎀BACH2018](https://iciar2018-challenge.grand-challenge.org/dataset/)  
-
-
+- [🎀In house WSI](https://ieeexplore.ieee.org/abstract/document/10752664)  
 Dataset tree:
 📂 DATASET  
 └── 📂 MoNuSeg  
@@ -67,26 +76,26 @@ Dataset tree:
 
 
 ### Training
-The CSAMNet model can be trained on training set using the following: 
+The FreqPath-Net model can be trained on training set using the following: 
 
 ```
-python train_CSAMNet.py 
+python train_FreqPath-Net.py 
 ``` 
 
 The parameters of the model have been carefully designed. 
-CSAMNet - Hardware: an NVIDIA RTX 3090 GPU and an Intel Core i9-10900X CPU.
+FreqPath-Net - Hardware: an NVIDIA RTX A6000 GPU and an Intel Core i9-10900X CPU.
 
 ## 📊 Evaluation
-The CSAMNet model can be evaluated on validation set using the following: 
+The FreqPath-Net model can be evaluated on validation set using the following: 
 
 ```
 python eval.py 
 ``` 
 
 <p align="center">
-  <img src="img/Fig_WSI_info.jpg" alt="CSAMNet" width="100%">
+  <img src="img/Fig_WSI_info.jpg" alt="FreqPath-Net" width="100%">
   <br>
-  <rm>Figure: (a) Workflow of the CSAMNet-based WSI analysis pipeline. (b) Tumor burden heatmaps on the public BACH2018 dataset; red contours indicate cancer regions. (c) Predicted nuclei masks on in-house WSIs without ground truth.</rm>
+  <rm>Figure: (a) Workflow of the FreqPath-Net-based WSI analysis pipeline. (b) Tumor burden heatmaps on the public BACH2018 dataset; red contours indicate cancer regions. (c) Predicted nuclei masks on in-house WSIs without ground truth.</rm>
 </p>
 
 ## 📬 Contact
