@@ -129,6 +129,40 @@ Dataset tree:
   </td>
 </tr>
 </table>
+<table style="width:100%; table-layout:fixed; border-collapse:separate; border-spacing:0;">
+  <!-- 用 colgroup 强制列宽，更稳 -->
+  <colgroup>
+    <col style="width:42%">
+    <col style="width:58%">
+  </colgroup>
+
+  <tr>
+    <!-- 左栏：文件树 -->
+    <td style="vertical-align:top; padding:12px; border:1px solid #e5e7eb; border-right:none; border-radius:6px 0 0 6px;">
+      <h4 style="margin:0 0 8px 0;">📂 Dataset tree</h4>
+      <pre style="margin:0; background:#f6f8fa; padding:10px; border-radius:6px; line-height:1.35; font-size:14px;"><code>📂 DATASET
+└── 📂 MoNuSeg
+    ├── 📂 train
+    │   ├── img
+    │   └── mask
+    ├── 📂 val
+    │   ├── img
+    │   └── mask
+    └── 📂 test
+        ├── img
+        └── mask</code></pre>
+    </td>
+
+    <!-- 右栏：气泡图 -->
+    <td style="vertical-align:middle; text-align:center; padding:12px; border:1px solid #e5e7eb; border-left:none; border-radius:0 6px 6px 0;">
+      <img src="img/FLOPS.jpg" alt="Performance Comparison"
+           style="max-width:100%; width:100%; border-radius:6px; border:1px solid #e5e7eb;">
+      <p style="font-size:12.5px; color:#808080; margin:6px 0 0 0;">
+        <i>Performance vs. Efficiency of FreqPath-Net compared with SOTA models.</i>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ### Training
 The FreqPath-Net model can be trained on training set using the following: 
