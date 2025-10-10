@@ -42,7 +42,8 @@
 
 <!-- # Introduction
 This is an official implementation of [FreqPath-Net: Frequency-Aware Spectral–Orthogonal Network for Histopathological Nuclei Segmentation](). ... -->
-<video src=https://github.com/huangjin520/FreqPath-Net/blob/main/img/src/tumor_burden_heatmap.mp4 width="640" controls loop muted></video>
+<video src="https://raw.githubusercontent.com/huangjin520/FreqPath-Net/main/img/src/tumor_burden_heatmap.mp4" width="640" controls loop muted></video>
+
 
 <p align="center">
   <img src="img/src/WSI_cell_mask.gif" width="45%">
