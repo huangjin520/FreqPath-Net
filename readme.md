@@ -100,7 +100,7 @@ WSI datasets:
 <table>
 <tr>
   <!-- 左侧文件树 -->
-  <td style="vertical-align:top; width:55%; padding-right:20px;">
+  <td style="vertical-align:top; width:50%; padding-right:10px;">
 
 
 
@@ -121,7 +121,7 @@ Dataset tree:
   </td>
 
   <!-- 右侧气泡图 -->
-  <td style="vertical-align:middle; width:55%; text-align:center;">
+  <td style="vertical-align:middle; width:50%; text-align:center;">
   <img src="img/FLOPS.jpg" alt="Performance Comparison" width="60%" >
 <p align="center" style="font-size:13px; color:#666;">
   <i>Performance vs. Efficiency of FreqPath-Net compared with SOTA models.</i>
