@@ -44,7 +44,7 @@
 This is an official implementation of [FreqPath-Net: Frequency-Aware Spectral–Orthogonal Network for Histopathological Nuclei Segmentation](). ... -->
 
 <p align="center">
-  <img src="img/src/WSI_performance.gif" width="60%">
+  <img src="img/src/WSI_performance.gif" alt="jin" width="60%">
 </p>
 
 <p align="center">
