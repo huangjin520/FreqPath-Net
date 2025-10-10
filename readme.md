@@ -1,6 +1,6 @@
 <p align="center">
   <img src="img/src/ipathologist.png" alt="FreqPath-Net" width="10%"
-  style="border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.25);">
+   >
   <br>
 </p>
 
@@ -19,8 +19,7 @@
 ---
 <br>
 <p align="center">
-  <img src="img/graph_abstract-FreqPath-Net.jpg" alt="FreqPath-Net" width="100%"
-  style="border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.25);">
+  <img src="img/graph_abstract-FreqPath-Net.png" alt="FreqPath-Net" width="100%">
   <br>
   <rm> Graphical Abstract</rm>
 </p>
@@ -45,7 +44,7 @@
 This is an official implementation of [FreqPath-Net: Frequency-Aware Spectral–Orthogonal Network for Histopathological Nuclei Segmentation](). ... -->
 
 <p align="center">
-  <img src="img/CellFFT_Nuclei_performance.jpg" alt="FreqPath-Net" width="100%"style="border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.25);">
+  <img src="img/CellFFT_Nuclei_performance.jpg" alt="FreqPath-Net" width="100%">
   <br>
   <rm>Figure: Comparison of nuclei segmentation performance.</rm>
 </p>
