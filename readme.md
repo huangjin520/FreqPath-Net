@@ -96,41 +96,6 @@ WSI datasets:
 
 
 
-
-<table>
-<tr>
-  <!-- 左侧文件树 -->
-  <td style="vertical-align:top; width:50%; padding-right:10px;">
-
-
-
-Dataset tree:
-📂 DATASET  
-└── 📂 MoNuSeg  
-&emsp; ├── 📂 train  
-&emsp; │ &emsp; ├── img  
-&emsp; │ &emsp; └──  mask  
-&emsp; ├── 📂 val  
-&emsp; │ &emsp; ├──  img  
-&emsp; │ &emsp; └── mask  
-&emsp; └── 📂 test  
-&emsp; &emsp; ├──img  
-&emsp; &emsp; └── mask
-  </pre>
-
-  </td>
-
-  <!-- 右侧气泡图 -->
-  <td style="vertical-align:middle; width:50%; text-align:center;">
-  <img src="img/FLOPS.jpg" alt="Performance Comparison" width="60%" >
-<p align="center" style="font-size:13px; color:#666;">
-  <i>Performance vs. Efficiency of FreqPath-Net compared with SOTA models.</i>
-</p>
-  </td>
-</tr>
-
-
-
 </table>
 <table style="width:100%; table-layout:fixed; border-collapse:separate; border-spacing:0;">
   <!-- 用 colgroup 强制列宽，更稳 -->
@@ -158,7 +123,7 @@ Dataset tree:
     <!-- 右栏：气泡图 -->
     <td style="vertical-align:middle; text-align:center; padding:12px; border:1px solid #e5e7eb; border-left:none; border-radius:0 6px 6px 0;">
       <img src="img/FLOPS.jpg" alt="Performance Comparison"
-           style="max-width:100%; width:100%; border-radius:6px; border:1px solid #e5e7eb;">
+           style="max-width:100%; width:80%; border-radius:6px; border:1px solid #e5e7eb;">
       <p style="font-size:12.5px; color:#808080; margin:6px 0 0 0;">
         <i>Performance vs. Efficiency of FreqPath-Net compared with SOTA models.</i>
       </p>
