@@ -100,7 +100,7 @@ WSI datasets:
 <table>
 <tr>
   <!-- 左侧文件树 -->
-  <td style="vertical-align:top; width:45%; padding-right:20px;">
+  <td style="vertical-align:top; width:55%; padding-right:20px;">
 
 
 
