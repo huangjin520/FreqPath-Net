@@ -97,9 +97,10 @@ WSI datasets:
 
 
 
-
-
-
+<table>
+<tr>
+  <!-- 左侧文件树 -->
+  <td style="vertical-align:top; width:45%; padding-right:20px;">
 
 
 
@@ -115,7 +116,19 @@ Dataset tree:
 &emsp; └── 📂 test  
 &emsp; &emsp; ├──img  
 &emsp; &emsp; └── mask
+  </pre>
 
+  </td>
+
+  <!-- 右侧气泡图 -->
+  <td style="vertical-align:middle; width:55%; text-align:center;">
+  <img src="img/FLOPS.jpg" alt="Performance Comparison" width="95%" >
+<p align="center" style="font-size:13px; color:#666;">
+  <i>Performance vs. Efficiency of FreqPath-Net compared with SOTA models.</i>
+</p>
+  </td>
+</tr>
+</table>
 
 ### Training
 The FreqPath-Net model can be trained on training set using the following: 
