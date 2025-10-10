@@ -17,17 +17,21 @@
 - **Liye Mei** · [liyemei@whu.edu.cn](mailto:liyemei@whu.edu.cn)  
 - **Cheng Lei** · [leicheng@whu.edu.cn](mailto:leicheng@whu.edu.cn)   -->
 
-**📚 Status:** Under review at *IEEE Transactions on Medical Imaging (TMI), 2025* 
+**📚 Status:** Submitted to IEEE Transactions on Medical Imaging (TMI), 2025* 
 
-**Link：** [![GitHub](https://img.shields.io/badge/GitHub-FreqPath-Net-black?logo=github)](https://github.com/huangjin520/FreqPath-Net) [![Paper](https://img.shields.io/badge/Paper-coming%20soon-lightgrey?logo=readthedocs)]() [![Website](https://img.shields.io/badge/Project-Website-blue?logo=google-chrome)](https://www.lei-whu.com)
+**Link：** [![GitHub](https://img.shields.io/badge/GitHub-FreqPath--Net-181717?logo=github)](https://github.com/huangjin520/FreqPath-Net) [![Paper](https://img.shields.io/badge/Paper-coming%20soon-lightgrey?logo=readthedocs)]() [![Website](https://img.shields.io/badge/Project-Website-blue?logo=google-chrome)](https://www.lei-whu.com)
 
 
 **📜Abstract:** <p align="justify"> Nuclei segmentation is a fundamental but challenging task in computational pathology due to diverse morphologies, blurred boundaries, and staining variations. Despite remarkable progress, existing models often suffer from structural instability under morphological and staining variations. We attribute this instability to disrupted frequency–spatial consistency and address it through FreqPath-Net, which enforces frequency–spatial consistency for robust nuclei segmentation. By operating directly in the frequency domain, FreqPath-Net achieves morphology-invariant and stain-robust feature representations. The Spectral Wavelet Attention Module (SWAM) adaptively enhances high-frequency boundary cues while maintaining low-frequency consistency, addressing boundary blurring and detail loss. Furthermore, the Orthogonal Direction-Constrained Frequency Module (ODFM) captures global spectral patterns and enforces directional consistency, effectively preserving boundary orientation and structural integrity by leveraging frequency–spatial consistency. Extensive experiments on twelve nuclei segmentation benchmarks show that FreqPath-Net consistently outperforms state-of-the-art methods. On the PanNuke dataset, FreqPath-Net attains an mIoU of 85.41\%, exceeding the previous best by 1.34\% across diverse organs. The code is available at [FreqPath-Net](https://github.com/huangjin520/FreqPath-Net).
 
-# Introduction
-This is an official implementation of [FreqPath-Net: Frequency-Aware Spectral–Orthogonal Network for Histopathological Nuclei Segmentation](). ...
+<!-- # Introduction
+This is an official implementation of [FreqPath-Net: Frequency-Aware Spectral–Orthogonal Network for Histopathological Nuclei Segmentation](). ... -->
 
-
+<p align="center">
+  <img src="img/CellFFT_Nuclei_performance.jpg" alt="FreqPath-Net" width="100%">
+  <br>
+  <rm>Figure: Comparison of nuclei segmentation performance.</rm>
+</p>
 
 ## 🚀 Quick start
 ### 1️⃣ Installation
@@ -53,14 +57,19 @@ We have evaluated segmentation performance on Four nuclei segmentation datasets:
 - [🔬PanNuke](https://link.springer.com/chapter/10.1007/978-3-030-23937-4_2) 
 - [🔬TNBC](https://ieeexplore.ieee.org/abstract/document/8438559) 
 - [🔬NuInsSeg](https://www.nature.com/articles/s41597-024-03117-2) 
-Four other modality datasets:
+
+Other modality datasets:
+- [🎀Dataset B](https://ieeexplore.ieee.org/abstract/document/8003418)
 - [🎀BUSI-WHU](https://ieeexplore.ieee.org/abstract/document/10906450)
 - [🧠Brain Tumor MRI](https://figshare.com/articles/dataset/brain_tumor_dataset/1512427)  
 - [📂LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI)  
 - [👶🏻PSFH](https://www.nature.com/articles/s41597-024-03266-4)  
 - [🩺GlaS](https://www.sciencedirect.com/science/article/pii/S1361841516301542)  
+
+WSI datasets:
 - [🎀BACH2018](https://iciar2018-challenge.grand-challenge.org/dataset/)  
 - [🎀In house WSI](https://ieeexplore.ieee.org/abstract/document/10752664)  
+
 Dataset tree:
 📂 DATASET  
 └── 📂 MoNuSeg  
@@ -93,7 +102,7 @@ python eval.py
 ``` 
 
 <p align="center">
-  <img src="img/Fig_WSI_info.jpg" alt="FreqPath-Net" width="100%">
+  <img src="img/CellFFT-WSI.jpg" alt="FreqPath-Net" width="100%">
   <br>
   <rm>Figure: (a) Workflow of the FreqPath-Net-based WSI analysis pipeline. (b) Tumor burden heatmaps on the public BACH2018 dataset; red contours indicate cancer regions. (c) Predicted nuclei masks on in-house WSIs without ground truth.</rm>
 </p>
