@@ -60,7 +60,8 @@ python -m pip install -r requirements.txt --user -q
 
 All experiments use the PyTorch 1.8 framework in a Python 3.10 environment. Other versions of pytorch and Python are not fully tested.
 ### 📂 Data preparation
-We have evaluated segmentation performance on Four nuclei segmentation datasets: 
+We conduct extensive experiments on 12 nuclei segmentation datasets and 6 other medical modality datasets to valid our model.
+<!-- We have evaluated segmentation performance on Twelve nuclei segmentation datasets: 
 - [🔬CPM17](https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2019.00053/full)  
 - [🔬Kumar](https://ieeexplore.ieee.org/abstract/document/7872382)  
 - [🔬MoNuSeg](https://ieeexplore.ieee.org/abstract/document/8880654)  
@@ -84,7 +85,7 @@ Other modality datasets:
 
 WSI datasets:
 - [🎀BACH2018](https://iciar2018-challenge.grand-challenge.org/dataset/)  
-- [🎀In house WSI](https://ieeexplore.ieee.org/abstract/document/10752664)  
+- [🎀In house WSI](https://ieeexplore.ieee.org/abstract/document/10752664)   -->
 
 |         **Category**        |    **Dataset**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | **Modality / Description**                   |
 | :-------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------- |
