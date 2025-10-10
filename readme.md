@@ -5,7 +5,7 @@
 </p>
 
 <h2 align="center">
-  FreqPath-Netgit
+  FreqPath-Net
 </h2>
 
 <p align="center">
