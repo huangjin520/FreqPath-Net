@@ -113,7 +113,7 @@ python eval.py
 ``` 
 
 <p align="center">
-  <img src="img/CellFFT-WSI.jpg" alt="FreqPath-Net " width="100%" style="border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.25);">
+  <img src="img/CellFFT-WSI.jpg" alt="FreqPath-Net " width="100%" style="border-radius:12px; box-shadow:0 8px 12px rgba(0,0,0,0.25);">
   <br>
   <rm>Figure: (a) Workflow of the FreqPath-Net-based WSI analysis pipeline. (b) Tumor burden heatmaps on the public BACH2018 dataset; red contours indicate cancer regions. (c) Predicted nuclei masks on in-house WSIs without ground truth.</rm>
 </p>
