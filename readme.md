@@ -10,7 +10,11 @@
 
 <p align="center">
 
-[![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/) [![PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange?logo=pytorch)](https://pytorch.org/) [![Platform](https://img.shields.io/badge/Platform-Linux-lightgrey)](https://github.com/huangjin520/FreqPath-Net)[![Dataset](https://img.shields.io/badge/Dataset-12%20nuclei%20benchmarks%20%2B%204%20modalities-9cf?logo=databricks)](https://github.com/huangjin520/FreqPath-Net#datasets) [![Status](https://img.shields.io/badge/Status-Under%20Review-yellow)](https://ieee-tmi.org/) [![Paper](https://img.shields.io/badge/Journal-IEEE%20TMI-blue?logo=ieee)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42) [![GitHub](https://img.shields.io/badge/GitHub-FreqPath--Net-181717?logo=github)](https://github.com/huangjin520/FreqPath-Net) [![Paper](https://img.shields.io/badge/Paper-coming%20soon-lightgrey?logo=readthedocs)]() [![Website](https://img.shields.io/badge/Project-Website-blue?logo=google-chrome)](https://www.lei-whu.com)
+[![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/) [![PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange?logo=pytorch)](https://pytorch.org/) [![Platform](https://img.shields.io/badge/Platform-Linux-lightgrey)](https://github.com/huangjin520/FreqPath-Net)[![Dataset](https://img.shields.io/badge/Dataset-12%20nuclei%20benchmarks%20%2B%204%20modalities-9cf?logo=databricks)](https://github.com/huangjin520/FreqPath-Net#datasets) [![Status](https://img.shields.io/badge/Status-Under%20Review-yellow)](https://ieee-tmi.org/) 
+</p> 
+<p align="center">
+
+[![Paper](https://img.shields.io/badge/Journal-IEEE%20TMI-blue?logo=ieee)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42) [![GitHub](https://img.shields.io/badge/GitHub-FreqPath--Net-181717?logo=github)](https://github.com/huangjin520/FreqPath-Net) [![Paper](https://img.shields.io/badge/Paper-coming%20soon-lightgrey?logo=readthedocs)]() [![Website](https://img.shields.io/badge/Project-Website-blue?logo=google-chrome)](https://www.lei-whu.com)
 </p>
 
 <br>
