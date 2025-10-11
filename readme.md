@@ -48,8 +48,9 @@ This is an official implementation of [FreqPath-Net: Frequency-Aware Spectral–
 </p>
 
 <p align="center">
-  <img src="img/src/WSI_cell_mask.gif" width="45%">
-  <img src="img/src/WSI_cell_HE_mask.gif" width="45%">
+  <img src="img/src/WSI_cell_mask.gif" width="33%">
+  <img src="img/src/WSI_cell_HE_mask.gif" width="33%">
+  <img src="img/src/Tumor_bh.gif" width="32%">
 </p>
 
 <p align="center">
