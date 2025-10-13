@@ -1,2 +1,4 @@
-checkpoints/
-checkpoints/
+# Ignore large directories
+Checkpoints/
+datasets/
+
