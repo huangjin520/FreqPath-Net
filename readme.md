@@ -104,7 +104,7 @@ WSI datasets:
 | 🩺 **Other Modalities (6)** | [BUSI-WHU](https://ieeexplore.ieee.org/abstract/document/10906450) · [PSFH](https://www.nature.com/articles/s41597-024-03266-4) · [Brain Tumor MRI](https://figshare.com/articles/dataset/brain_tumor_dataset/1512427) · [Dataset-B](https://ieeexplore.ieee.org/abstract/document/8003418) · [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI) · [GlaS](https://www.sciencedirect.com/science/article/pii/S1361841516301542)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Ultrasound, MRI, CT, H&E                     |
 
 - 🤗 **Processed Datasets:** [FreqPath-Net-datasets on Hugging Face](https://huggingface.co/datasets/HJinjin/FreqPath-Net-datasets)  
-  Each dataset follows the standardized `train / val / test → img / mask` structure, consistent with our experiments.
+  Each dataset follows the standardized `train / val / test → img / gt` structure, consistent with our experiments.
 
 - 🤗 **Trained Model Weights:** [FreqPath-Net Checkpoints on Hugging Face](https://huggingface.co/HJinjin/FreqPath-Net)  
   Includes pretrained weights and benchmark configurations for reproduction and transfer learning.
