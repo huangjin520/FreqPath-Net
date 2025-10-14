@@ -67,8 +67,8 @@ All processed datasets and pretrained weights are publicly available on **Huggin
 
 | Type | Link | Description |
 |------|------|-------------|
-| 🧬 **Datasets** | [HJinjin/FreqPath-Net-datasets](https://huggingface.co/datasets/HJinjin/FreqPath-Net-datasets) | Standardized nuclei segmentation benchmarks (`train / val / test → img / gt`) used in our experiments |
-| 🧠 **Model Weights** | [HJinjin/FreqPath-Net](https://huggingface.co/HJinjin/FreqPath-Net) | Pretrained `.pt` checkpoints and configuration files for direct evaluation and fine-tuning |
+| 🤗 **Datasets** | [HJinjin/FreqPath-Net-datasets](https://huggingface.co/datasets/HJinjin/FreqPath-Net-datasets) | Standardized nuclei segmentation benchmarks (`train / val / test → img / gt`) used in our experiments |
+| 🤗 **Model Weights** | [HJinjin/FreqPath-Net](https://huggingface.co/HJinjin/FreqPath-Net) | Pretrained `.pt` checkpoints and configuration files for direct evaluation and fine-tuning |
 
 ###  Clone or load weights from Hugging Face
 ```bash
