@@ -59,6 +59,25 @@ This is an official implementation of [FreqPath-Net: Frequency-Aware Spectral–
   <rm>Figure: Comparison of nuclei segmentation performance.</rm>
 </p>
 
+## 🤗 Hugging Face Resources
+
+All processed datasets and pretrained weights are publicly available on **Hugging Face**, enabling instant reproducibility.
+
+| Type | Link | Description |
+|------|------|-------------|
+| 🧬 **Datasets** | [HJinjin/FreqPath-Net-datasets](https://huggingface.co/datasets/HJinjin/FreqPath-Net-datasets) | Standardized nuclei segmentation benchmarks (`train / val / test → img / gt`) used in our experiments |
+| 🧠 **Model Weights** | [HJinjin/FreqPath-Net](https://huggingface.co/HJinjin/FreqPath-Net) | Pretrained `.pt` checkpoints and configuration files for direct evaluation and fine-tuning |
+
+###  Clone or load weights from Hugging Face
+```bash
+git lfs install
+git clone https://huggingface.co/huangjin520/FreqPath-Net
+```
+### Clone or load datasets from Hugging Face
+```bash
+git lfs install
+git clone https://huggingface.co/datasets/huangjin520/FreqPath-Net-datasets
+```
 ## 🚀 Quick start
 ### 1️⃣ Installation
 Assuming that you have installed PyTorch and TorchVision, if not, please follow the [officiall instruction](https://pytorch.org/) to install them firstly. 
@@ -103,11 +122,6 @@ WSI datasets:
 |        🧫 **WSI (2)**       | [BACH2018](https://iciar2018-challenge.grand-challenge.org/dataset/) · [In-house WSIs](https://ieeexplore.ieee.org/abstract/document/10752664)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Whole-slide H&E images                       |
 | 🩺 **Other Modalities (6)** | [BUSI-WHU](https://ieeexplore.ieee.org/abstract/document/10906450) · [PSFH](https://www.nature.com/articles/s41597-024-03266-4) · [Brain Tumor MRI](https://figshare.com/articles/dataset/brain_tumor_dataset/1512427) · [Dataset-B](https://ieeexplore.ieee.org/abstract/document/8003418) · [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI) · [GlaS](https://www.sciencedirect.com/science/article/pii/S1361841516301542)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Ultrasound, MRI, CT, H&E                     |
 
-- 🤗 **Processed Datasets:** [FreqPath-Net-datasets on Hugging Face](https://huggingface.co/datasets/HJinjin/FreqPath-Net-datasets)  
-  Each dataset follows the standardized `train / val / test → img / gt` structure, consistent with our experiments.
-
-- 🤗 **Trained Model Weights:** [FreqPath-Net Checkpoints on Hugging Face](https://huggingface.co/HJinjin/FreqPath-Net)  
-  Includes pretrained weights and benchmark configurations for reproduction and transfer learning.
 
 
 
