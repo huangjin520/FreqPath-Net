@@ -55,11 +55,6 @@ This is an official implementation of [FreqPath-Net: Frequency-Aware Spectral–
   <img src="img/src/Tumor_bh.gif" width="32%">
 </p>
 
-<p align="center">
-  <img src="img/CellFFT_Nuclei_performance.jpg" alt="FreqPath-Net" width="100%">
-  <br>
-  <rm>Figure: Comparison of nuclei segmentation performance.</rm>
-</p>
 
 ## 🤗 Hugging Face Resources
 
@@ -161,6 +156,11 @@ WSI datasets:
     </td>
   </tr>
 </table>
+<p align="center">
+  <img src="img/CellFFT_Nuclei_performance.jpg" alt="FreqPath-Net" width="100%">
+  <br>
+  <rm>Figure: Comparison of nuclei segmentation performance.</rm>
+</p>
 
 ### Training
 The FreqPath-Net model can be trained on training set using the following: 
