@@ -29,7 +29,7 @@
 ---
 <br>
 <p align="center">
-  <img src="img/graph_abstract-FreqPath-Net.png" alt="FreqPath-Net" width="100%">
+  <img src="img/src/graph_abstract-FreqPath-Net.jpg" alt="FreqPath-Net" width="100%">
   <br>
   <rm> Graphical Abstract</rm>
 </p>
@@ -61,6 +61,12 @@ This is an official implementation of [FreqPath-Net: Frequency-Aware Spectral–
   <img src="img/src/WSI_cell_mask.gif" width="33%">
   <img src="img/src/WSI_cell_HE_mask.gif" width="33%">
   <img src="img/src/Tumor_bh.gif" width="32%">
+</p>
+
+<p align="center">
+  <img src="img/src/feature_map.jpg" alt="Feature Map Visualization" width="100%">
+  <br>
+  <rm>Figure: Frequency-aware feature responses and intermediate representations of FreqPath-Net.</rm>
 </p>
 
 
@@ -165,9 +171,39 @@ WSI datasets:
   </tr>
 </table>
 <p align="center">
-  <img src="img/CellFFT_Nuclei_performance.jpg" alt="FreqPath-Net" width="100%">
+  <img src="img/src/CellFFT_Nuclei_performance.jpg" alt="FreqPath-Net" width="100%">
   <br>
   <rm>Figure: Comparison of nuclei segmentation performance.</rm>
+</p>
+
+<p align="center">
+  <img src="img/src/instance.jpg" alt="Instance Segmentation Results" width="100%">
+  <br>
+  <rm>Figure: Instance-level qualitative comparisons on representative nuclei segmentation cases.</rm>
+</p>
+
+<p align="center">
+  <img src="img/src/more_modalities.jpg" alt="More Modalities" width="100%">
+  <br>
+  <rm>Figure: Generalization results of FreqPath-Net across multiple medical imaging modalities.</rm>
+</p>
+
+<p align="center">
+  <img src="img/src/ablation.jpg" alt="Ablation Study" width="100%">
+  <br>
+  <rm>Figure: Ablation analysis of key frequency-domain modules in FreqPath-Net.</rm>
+</p>
+
+<p align="center">
+  <img src="img/src/efficiency.jpg" alt="Efficiency Comparison" width="100%">
+  <br>
+  <rm>Figure: Efficiency comparison of FreqPath-Net against recent methods.</rm>
+</p>
+
+<p align="center">
+  <img src="img/src/PR_ROC.jpg" alt="PR and ROC Curves" width="100%">
+  <br>
+  <rm>Figure: Precision-Recall and ROC curves on representative evaluation benchmarks.</rm>
 </p>
 
 ### Training
@@ -188,7 +224,7 @@ python eval.py
 ``` 
 
 <p align="center">
-  <img src="img/CellFFT-WSI.png" alt="FreqPath-Net " width="100%" >
+  <img src="img/src/CellFFT-WSI.jpg" alt="FreqPath-Net " width="100%" >
   <br>
   <rm>Figure: (a) Workflow of the FreqPath-Net-based WSI analysis pipeline. (b) Tumor burden heatmaps on the public BACH2018 dataset; red contours indicate cancer regions. (c) Predicted nuclei masks on in-house WSIs without ground truth.</rm>
 </p>
