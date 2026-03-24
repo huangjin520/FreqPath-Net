@@ -1,38 +1,61 @@
 <p align="center">
-  <img src="img/src/ipathologist.png" alt="FreqPath-Net" width="10%"
-   >
-  <br>
+  <img src="img/src/ipathologist.png" alt="FreqPath-Net logo" width="96">
 </p>
-<h2 align="center">
-  FreqPath-Net
-<p align="Center"> 
-  <span style="background-color: #f0f0f0; padding: 5px 12px; border-radius: 8px; font-weight: 600; font-size: 16px;"> 
-    <img src="https://img.icons8.com/ios-filled/20/000000/code.png" alt="Code Icon" style="vertical-align: middle; margin-right: 5px;"> 
-    Developed by <a href="mailto:wangshengqian@whu.edu.cn" style="text-decoration: none; color: inherit;">Shengqian Wang（王圣乾）</a> 
-    &nbsp;&nbsp;|&nbsp;&nbsp; 
-    <img src="https://img.icons8.com/ios-filled/20/000000/design.png" alt="Design Icon" style="vertical-align: middle; margin-right: 5px;"> 
-    Designed by <a href="mailto:jinhuang@whu.edu.cn" style="text-decoration: none; color: inherit;">Jin Huang（黄金）</a> 
-  </span> 
-</p>
-</h2>
 
+<h1 align="center">FreqPath-Net</h1>
 
-
-[![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/) [![PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange?logo=pytorch)](https://pytorch.org/)[![Dataset](https://img.shields.io/badge/Dataset-12%20nuclei%20benchmarks%20%2B%204%20modalities-9cf?logo=databricks)](https://github.com/huangjin520/FreqPath-Net#datasets) [![GitHub](https://img.shields.io/badge/GitHub-FreqPath--Net-181717?logo=github)](https://github.com/huangjin520/FreqPath-Net) [![Paper](https://img.shields.io/badge/Paper-coming%20soon-lightgrey?logo=readthedocs)]() [![Website](https://img.shields.io/badge/Project-Website-blue?logo=google-chrome)](https://www.lei-whu.com) [![HuggingFace Model](https://img.shields.io/badge/🤗%20Model-FreqPath--Net-orange?logo=huggingface)](https://huggingface.co/huangjin520/FreqPath-Net) [![HuggingFace Dataset](https://img.shields.io/badge/🤗%20Dataset-FreqPath--Net--datasets-yellow?logo=huggingface)](https://huggingface.co/datasets/huangjin520/FreqPath-Net-datasets)
-
-
-
-
-
-<br>
-
----
-<br>
 <p align="center">
-  <img src="img/src/graph_abstract-FreqPath-Net.jpg" alt="FreqPath-Net" width="100%">
-  <br>
-  <rm> Graphical Abstract</rm>
+  <strong>Frequency-Aware Spectral-Orthogonal Network for Histopathological Nuclei Segmentation</strong>
 </p>
+
+<p align="center">
+  Robust nuclei segmentation with frequency-spatial consistency across morphology variation, staining shift, and multi-modality medical imaging.
+</p>
+
+<p align="center">
+  Developed by <a href="mailto:wangshengqian@whu.edu.cn">Shengqian Wang（王圣乾）</a>
+  &nbsp;·&nbsp;
+  Designed by <a href="mailto:jinhuang@whu.edu.cn">Jin Huang（黄金）</a>
+</p>
+
+<p align="center">
+  <a href="#-hugging-face-resources">Resources</a> •
+  <a href="#-quick-start">Quick Start</a> •
+  <a href="#-evaluation">Evaluation</a> •
+  <a href="#-contact">Contact</a>
+</p>
+
+<p align="center">
+  <a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-3.10-blue?logo=python"></a>
+  <a href="https://pytorch.org/"><img alt="PyTorch" src="https://img.shields.io/badge/Framework-PyTorch-orange?logo=pytorch"></a>
+  <a href="https://github.com/huangjin520/FreqPath-Net#datasets"><img alt="Datasets" src="https://img.shields.io/badge/Dataset-12%20nuclei%20benchmarks%20%2B%204%20modalities-0ea5e9?logo=databricks&logoColor=white"></a>
+  <a href="https://github.com/huangjin520/FreqPath-Net"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-FreqPath--Net-181717?logo=github"></a>
+  <a href=""><img alt="Paper" src="https://img.shields.io/badge/Paper-coming%20soon-lightgrey?logo=readthedocs"></a>
+  <a href="https://www.lei-whu.com"><img alt="Project Website" src="https://img.shields.io/badge/Project-Website-2563eb?logo=google-chrome&logoColor=white"></a>
+  <a href="https://huggingface.co/huangjin520/FreqPath-Net"><img alt="Hugging Face Model" src="https://img.shields.io/badge/%F0%9F%A4%97%20Model-FreqPath--Net-f59e0b?logo=huggingface&logoColor=white"></a>
+  <a href="https://huggingface.co/datasets/huangjin520/FreqPath-Net-datasets"><img alt="Hugging Face Dataset" src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-FreqPath--Net--datasets-facc15?logo=huggingface&logoColor=black"></a>
+</p>
+
+<table align="center">
+  <tr>
+    <td align="center"><strong>12</strong><br><sub>Nuclei Benchmarks</sub></td>
+    <td align="center"><strong>6</strong><br><sub>Extra Modalities</sub></td>
+    <td align="center"><strong>2</strong><br><sub>Public HF Releases</sub></td>
+    <td align="center"><strong>1.34%</strong><br><sub>mIoU Gain on PanNuke</sub></td>
+  </tr>
+</table>
+
+<br>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="img/src/graph_abstract-FreqPath-Net.jpg" alt="FreqPath-Net graphical abstract" width="100%">
+      <br>
+      <sub><strong>Graphical Abstract</strong></sub>
+    </td>
+  </tr>
+</table>
 
 **📖Title：** FreqPath-Net: Frequency-Aware Spectral–Orthogonal Network for Histopathological Nuclei Segmentation
 
@@ -53,22 +76,27 @@
 <!-- # Introduction
 This is an official implementation of [FreqPath-Net: Frequency-Aware Spectral–Orthogonal Network for Histopathological Nuclei Segmentation](). ... -->
 
-<p align="center">
-  <img src="img/src/WSI_performance.gif" alt="jin" width="60%">
-</p>
+<table align="center" style="width:100%; table-layout:fixed; border-collapse:separate; border-spacing:12px 0;">
+  <tr>
+    <td align="center" style="width:50%; vertical-align:top;">
+      <img src="img/src/WSI_performance.gif" alt="WSI performance visualization" width="100%">
+      <br>
+      <sub><strong>Figure.</strong> Whole-slide performance visualization of FreqPath-Net.</sub>
+    </td>
+    <td align="center" style="width:50%; vertical-align:top;">
+      <img src="img/src/feature_map.jpg" alt="Feature Map Visualization" width="100%">
+      <br>
+      <sub><strong>Figure.</strong> Frequency-aware feature responses and intermediate representations of FreqPath-Net.</sub>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="img/src/WSI_cell_mask.gif" width="33%">
   <img src="img/src/WSI_cell_HE_mask.gif" width="33%">
   <img src="img/src/Tumor_bh.gif" width="32%">
 </p>
-
-<p align="center">
-  <img src="img/src/feature_map.jpg" alt="Feature Map Visualization" width="100%">
-  <br>
-  <rm>Figure: Frequency-aware feature responses and intermediate representations of FreqPath-Net.</rm>
-</p>
-
+    
 
 ## 🤗 Hugging Face Resources
 
