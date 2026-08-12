@@ -5,7 +5,7 @@
 <h1 align="center">FreqPath-Net</h1>
 
 <p align="center">
-  <strong>Frequency-Aware Spectral-Orthogonal Network for Histopathological Nuclei Segmentation</strong>
+  <strong>FreqPath-Net: Frequency-Aware Spectral-Orthogonal Network for Histopathological Nuclei Segmentation</strong>
 </p>
 
 <p align="center">
