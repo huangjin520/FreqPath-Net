@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="img/src/Wuhan_university_school_badge.png" alt="Wuhan University Badge" height="50" style="margin-right: 25px;">  <img src="img/src/Wuhan_university_name.png" alt="Wuhan University Name" height="50" style="margin-right: 25px;">  <img src="img/src/Wuhan_Integrated_Circuits.png" alt="Wuhan Integrated Circuits" height="50"> <img src="img/src/Hust_university_school_badge.png" alt="HUST University badge" height="50">  <img src="img/src/HUST_university_name.png" alt="HUST University Name" height="40" style="margin-right: 25px;"> 
-</p>
-
 <table>
 <tr>
 <td align="left">
@@ -12,16 +8,13 @@
 
 <p align="left"> 
   <span style="background-color: #f0f0f0; padding: 5px 12px; border-radius: 8px; font-weight: 600; font-size: 16px;"> 
-    <img src="https://img.icons8.com/ios-filled/20/000000/code.png" alt="Code Icon" style="vertical-align: middle; margin-right: 5px;"> 
-    Developed by <a href="mailto:wangshengqian@whu.edu.cn" style="text-decoration: none; color: inherit;">Shengqian Wang（王圣乾）</a> 
-    &nbsp;&nbsp;|&nbsp;&nbsp; 
-    <img src="https://img.icons8.com/ios-filled/20/000000/design.png" alt="Design Icon" style="vertical-align: middle; margin-right: 5px;"> 
-    Designed by <a href="mailto:jinhuang@whu.edu.cn" style="text-decoration: none; color: inherit;">Jin Huang（黄金）</a> 
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    <img src="https://img.icons8.com/ios-filled/20/000000/documents.png"
+    <img src="https://img.icons8.com/ios-filled/20/000000/code.png" alt="Code Icon" style="vertical-align: middle; ;"> 
+    Developed by <a href="mailto:wangshengqian@whu.edu.cn" style="text-decoration: none; color: inherit;">Shengqian Wang（王圣乾）</a>
+    <img src="https://img.icons8.com/ios-filled/20/000000/design.png" alt="Design Icon" style="vertical-align: middle"> 
+    Designed by <a href="mailto:jinhuang@whu.edu.cn" style="text-decoration: none; color: inherit;">Jin Huang（黄金）</a>  <img src="https://img.icons8.com/ios-filled/20/000000/documents.png"
          alt="Content Curation Icon"
-         style="vertical-align: middle; margin-right: 5px;">
-    Content curated by <a href="mailto:u202314945@hust.edu.cn" style="text-decoration: none; color: inherit;"> Wenchao Xue（薛文超）
+         style="vertical-align: middle;">
+    Organized by <a href="mailto:u202314945@hust.edu.cn" style="text-decoration: none; color: inherit;"> Wenchao Xue（薛文超）
   </span> 
 </p>
 </td>
