@@ -5,7 +5,7 @@
 <h1 align="center">FreqPath-Net</h1>
 
 <p align="center">
-  <strong>FreqPath-Net: Frequency-Aware Spectral-Orthogonal Network for Histopathological Nuclei Segmentation</strong>
+  <strong>[TMI'2026] FreqPath-Net: Frequency-Aware Spectral-Orthogonal Network for Histopathological Nuclei Segmentation</strong>
 </p>
 
 <p align="center">
@@ -15,7 +15,8 @@
 <p align="center">
   Developed by <a href="mailto:wangshengqian@whu.edu.cn">Shengqian Wang（王圣乾）</a>
   &nbsp;·&nbsp;
-  Designed by <a href="mailto:jinhuang@whu.edu.cn">Jin Huang（黄金）</a>
+  Designed by <a href="mailto:jinhuang@whu.edu.cn">Jin Huang（黄金）</a>;
+  Compiled by <a href="u202314945@hust.edu.cn">Wenchao Xue（薛文超）</a>
 </p>
 
 <p align="center">
@@ -262,7 +263,7 @@ For any questions or collaborations, please contact [Jin Huang](mailto:jinhuang@
 
 
 <p align="center">
-  <img src="img/src/Wuhan_university_school_badge.png" alt="Wuhan University Badge" height="50" style="margin-right: 25px;">  <img src="img/src/Wuhan_university_name.png" alt="Wuhan University Name" height="50" style="margin-right: 25px;">  <img src="img/src/Wuhan_Integrated_Circuits.png" alt="Wuhan Integrated Circuits" height="50">
+  <img src="img/src/Wuhan_university_school_badge.png" alt="Wuhan University Badge" height="50" style="margin-right: 25px;">  <img src="img/src/Wuhan_university_name.png" alt="Wuhan University Name" height="50" style="margin-right: 25px;">  <img src="img/src/Wuhan_Integrated_Circuits.png" alt="Wuhan Integrated Circuits" height="50"> <img src="img/src/Hust_university_school_badge.png" alt="HUST University badge" height="50">  <img src="img/src/HUST_university_name.png" alt="HUST University Name" height="40" style="margin-right: 25px;"> 
 </p>
 
 
