@@ -25,26 +25,9 @@
 </tr>
 </table>
 
-<!-- <p align="center">
-  <img src="img/src/ipathologist.png" alt="FreqPath-Net logo" width="96">
-</p> -->
-
-<!-- <h1 align="center">FreqPath-Net</h1>
-
-<p align="center">
-  <strong>[TMI'2026] FreqPath-Net: Frequency-Aware Spectral-Orthogonal Network for Histopathological Nuclei Segmentation</strong>
-</p> -->
-
 <p align="center">
   Robust nuclei segmentation with frequency-spatial consistency across morphology variation, staining shift, and multi-modality medical imaging.
 </p>
-<!-- 
-<p align="center">
-  Developed by <a href="mailto:wangshengqian@whu.edu.cn">Shengqian Wang（王圣乾）</a>
-  &nbsp;·&nbsp;
-  Designed by <a href="mailto:jinhuang@whu.edu.cn">Jin Huang（黄金）</a>;
-  Compiled by <a href="u202314945@hust.edu.cn">Wenchao Xue（薛文超）</a>
-</p> -->
 
 <p align="center">
   <a href="#-hugging-face-resources">Resources</a> •
