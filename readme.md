@@ -77,7 +77,7 @@
 - **Liye Mei** · [liyemei@whu.edu.cn](mailto:liyemei@whu.edu.cn)  
 - **Cheng Lei** · [leicheng@whu.edu.cn](mailto:leicheng@whu.edu.cn)   -->
 
-**📚 Status:** Submitted to IEEE Transactions on Medical Imaging (TMI), 2025* 
+**📚 Status:** Accepted by IEEE Transactions on Medical Imaging (TMI), 2026
 
 <!-- **Link：** [![GitHub](https://img.shields.io/badge/GitHub-FreqPath--Net-181717?logo=github)](https://github.com/huangjin520/FreqPath-Net) [![Paper](https://img.shields.io/badge/Paper-coming%20soon-lightgrey?logo=readthedocs)]() [![Website](https://img.shields.io/badge/Project-Website-blue?logo=google-chrome)](https://www.lei-whu.com) -->
 
