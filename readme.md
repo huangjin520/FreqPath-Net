@@ -1,23 +1,57 @@
 <p align="center">
-  <img src="img/src/ipathologist.png" alt="FreqPath-Net logo" width="96">
+  <img src="img/src/Wuhan_university_school_badge.png" alt="Wuhan University Badge" height="50" style="margin-right: 25px;">  <img src="img/src/Wuhan_university_name.png" alt="Wuhan University Name" height="50" style="margin-right: 25px;">  <img src="img/src/Wuhan_Integrated_Circuits.png" alt="Wuhan Integrated Circuits" height="50"> <img src="img/src/Hust_university_school_badge.png" alt="HUST University badge" height="50">  <img src="img/src/HUST_university_name.png" alt="HUST University Name" height="40" style="margin-right: 25px;"> 
 </p>
 
-<h1 align="center">FreqPath-Net</h1>
+<table>
+<tr>
+<td align="left">
+  <h1 style="margin: 0;">
+    <!-- <em>IEEE TMI 2026</em><br> -->
+    FreqPath-Net: Frequency-Aware Spectral-Orthogonal Network for Histopathological Nuclei Segmentation
+  </h1>
+
+<p align="left"> 
+  <span style="background-color: #f0f0f0; padding: 5px 12px; border-radius: 8px; font-weight: 600; font-size: 16px;"> 
+    <img src="https://img.icons8.com/ios-filled/20/000000/code.png" alt="Code Icon" style="vertical-align: middle; margin-right: 5px;"> 
+    Developed by <a href="mailto:wangshengqian@whu.edu.cn" style="text-decoration: none; color: inherit;">Shengqian Wang（王圣乾）</a> 
+    &nbsp;&nbsp;|&nbsp;&nbsp; 
+    <img src="https://img.icons8.com/ios-filled/20/000000/design.png" alt="Design Icon" style="vertical-align: middle; margin-right: 5px;"> 
+    Designed by <a href="mailto:jinhuang@whu.edu.cn" style="text-decoration: none; color: inherit;">Jin Huang（黄金）</a> 
+    &nbsp;&nbsp;|&nbsp;&nbsp;
+    <img src="https://img.icons8.com/ios-filled/20/000000/documents.png"
+         alt="Content Curation Icon"
+         style="vertical-align: middle; margin-right: 5px;">
+    Content curated by <a href="mailto:u202314945@hust.edu.cn" style="text-decoration: none; color: inherit;"> Wenchao Xue（薛文超）
+  </span> 
+</p>
+</td>
+
+<td align="right">
+  <img src="img/src/ipathologist.png" alt="logo" width="200">
+</td>
+</tr>
+</table>
+
+<!-- <p align="center">
+  <img src="img/src/ipathologist.png" alt="FreqPath-Net logo" width="96">
+</p> -->
+
+<!-- <h1 align="center">FreqPath-Net</h1>
 
 <p align="center">
   <strong>[TMI'2026] FreqPath-Net: Frequency-Aware Spectral-Orthogonal Network for Histopathological Nuclei Segmentation</strong>
-</p>
+</p> -->
 
 <p align="center">
   Robust nuclei segmentation with frequency-spatial consistency across morphology variation, staining shift, and multi-modality medical imaging.
 </p>
-
+<!-- 
 <p align="center">
   Developed by <a href="mailto:wangshengqian@whu.edu.cn">Shengqian Wang（王圣乾）</a>
   &nbsp;·&nbsp;
   Designed by <a href="mailto:jinhuang@whu.edu.cn">Jin Huang（黄金）</a>;
   Compiled by <a href="u202314945@hust.edu.cn">Wenchao Xue（薛文超）</a>
-</p>
+</p> -->
 
 <p align="center">
   <a href="#-hugging-face-resources">Resources</a> •
