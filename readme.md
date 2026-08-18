@@ -44,7 +44,7 @@
   <a href=""><img alt="Paper" src="https://img.shields.io/badge/Paper-coming%20soon-lightgrey?logo=readthedocs"></a>
   <a href="https://www.lei-whu.com"><img alt="Project Website" src="https://img.shields.io/badge/Project-Website-2563eb?logo=google-chrome&logoColor=white"></a>
   <a href="https://huggingface.co/huangjin520/FreqPath-Net"><img alt="Hugging Face Model" src="https://img.shields.io/badge/%F0%9F%A4%97%20Model-FreqPath--Net-f59e0b?logo=huggingface&logoColor=white"></a>
-  <a href="https://huggingface.co/datasets/huangjin520/FreqPath-Net-datasets"><img alt="Hugging Face Dataset" src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-FreqPath--Net--datasets-facc15?logo=huggingface&logoColor=black"></a>
+  <a href="https://huggingface.co/datasets/huangjin520/FreqPath-Net-datasets"><img alt="Hugging Face Dataset" src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-FreqPath--Net--checkpoints-facc15?logo=huggingface&logoColor=black"></a>
 </p>
 
 <table align="center">
